@@ -6,7 +6,7 @@ Especially we focused on getting familiar with Diaspora's [git work-flow](https:
 After this introduction we are now learning and working on few subjects, in order to be more ready for solving our first issues:
 
 * Testing: As we started the project with zero knowledge about testing, we dived into some tutorials, videos and exercises. We didn't yet read or watched all of them but we are working on it. This is the stuff we have so far:
-[Learn RSpec tutorial](https://www.tutorialspoint.com/rspec/rspec_introduction.htm),
+[Learn RSpec tutorial](https://www.tutorialspoint.com/rspec/rspec_introduction.htm), alongside [RSpec documentation](http://rspec.info/documentation/).
 [Everyday Rails blog post about testing](https://everydayrails.com/2012/03/19/testing-series-rspec-models-factory-girl.html),
 [TDD exercises](https://sites.google.com/site/tddproblems/all-problems-1/text-editor-end-of-line-trimming),
 [Code School video](https://www.youtube.com/watch?v=Dj19O9kLK6w),
@@ -17,4 +17,6 @@ After this introduction we are now learning and working on few subjects, in orde
 
 * Mails: The subjects of emails in general, and in rails in particular, is also brand new for us. We started reading Rails [Action Mailer Guide](http://guides.rubyonrails.org/action_mailer_basics.html) and the related [documentation](http://api.rubyonrails.org/) in order to get familiar with the subject, [Rails-cast video](https://www.youtube.com/watch?v=OI-m0wbmf8A) was also helpful.
 
-[Issue #6559](https://github.com/diaspora/diaspora/issues/6559): While learning, we started to look at our first issue. We located the code that need to be fixed for this issue in app\mailers\notification_mailers\base.rb, lines 35-40. We located the related test in spec\mailers\notifier_spec.rb. We realized there is a bit of a gap between the issue description and the code. We will ask our mentor about that or on the Diaspora IRC channel.
+[Issue #6559](https://github.com/diaspora/diaspora/issues/6559): While learning, we started to look at our first issue. We located the code that need to be fixed for this issue in app\mailers\notification_mailers\base.rb, lines 35-42. We located the related test in spec\mailers\notifier_spec.rb. We realized there is a bit of a gap between the issue description and the code. We will ask our mentor about that or on the Diaspora IRC channel.
+
+One more thing we have learned from the contribution guide is this nice [blog post](https://opensource.com/life/15/2/4-tips-breaking-open-source-community) about contributing to an OS project.
