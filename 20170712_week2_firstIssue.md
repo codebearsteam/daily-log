@@ -8,11 +8,13 @@ We realized what cases we have regarding the FROM header, and each one of them r
 
 1. No sender present: when there in no sender, the from header is set to be: `AppConfig.mail.sender_address` -  the email address that is configured in the defaults.yml file. the default is a no-reply address, but the pod admin can configure this. The issue does not refer to this case. However, we saw that this case is not tested, so we wrote 2 tests, for 2 emails types with no direct sender in the notifier_spec.rb file, and asked on the issue if there are any more cases like that. You can take a look at our commit [here](https://github.com/codebearsteam/diaspora/pull/1/commits/2381602269b2fdcaf115cd760a74d9a6ac422419) if you would like.
 
-2. Sender is present: just yesterday we understood completely this line of code: `headers[:from] = "\"Diaspora* (on behalf of #{@sender.name})\" <#{AppConfig.mail.sender_address}>" if @sender.present?`, that we changed in order to fix the issue. Apparently, the `.name` method returns one of the following options:   
-      a. First name AND/OR last name: In this case we are fine. Our code corrections answer to the requirements of the issue. we also changed the corresponding tests. You can see those changes [here](https://github.com/codebearsteam/diaspora/pull/1/commits/c5426e79328ed9bfc1e99c69afae5728065b30f5)   
-      b. Diaspora handler (for example podmin@podname.org): We actually don't wont to have diaspora identifiers in the FROM header (as asked at the issue), especially not something that looks like an email and confuses the recipient. Since we can't change the `.name` method to return just first name and/or last name but not a diaspora handler, we need to write a method in the base.rb file that does so. Since we also try to follow the TDD work flow, we already wrote a test for this case, and as expected it failed (\o/). The next step would be to write the method and see that the test passes (hopefully :)).  
+2. Sender is present: just yesterday we understood completely this line of code: `headers[:from] = "\"Diaspora* (on behalf of #{@sender.name})\" <#{AppConfig.mail.sender_address}>" if @sender.present?`, that we changed in order to fix the issue. Apparently, the `.name` method returns one of the following options:
 
-That's it for today :)
+      a. First name AND/OR last name: In this case we are fine. Our code corrections answer to the requirements of the issue. we also changed the corresponding tests. You can see those changes [here](https://github.com/codebearsteam/diaspora/pull/1/commits/c5426e79328ed9bfc1e99c69afae5728065b30f5).
+
+      b. Diaspora handler (for example podmin@podname.org): We actually don't want to have diaspora identifiers in the FROM header (as required at the issue), especially not something that looks like an email and confuses the recipient. Since we can't change the `.name` method to return just first name and/or last name but not a diaspora handler, we need to write a method in the base.rb file that does so. Since we also try to follow the TDD work flow, we already wrote a test for this case, and as expected it failed (\o/). The next step would be to write the method and see that the test passes (hopefully :)).  
+
+That's it for today, it was a lot of fun :)
 
 ### July 12th ###
 
