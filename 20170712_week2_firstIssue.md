@@ -1,5 +1,32 @@
 ### Issue /#6559 - Starting Phase ###
 
+### July 14th ###
+
+This week we had an amazing learning process, that helped us to make a step by step progress with our issue. The building blocks we established with each coach (either about rspec, git or ruby on rails) merged together into a more or less integrative understanding of what we need in order to solve the issues, and all that is very exciting!
+
+On a practical note:
+
+1. We met with Cristophe, a diaspora's pod admin and contributer. He explained us a bit about the project, the code and the community- all very helpful information. Nonetheless, he invited us to come meet him every other Friday, so we actually got a coach who is super familiar with diaspora's code, which is amazing! if you are interested, you are totally welcome to join.
+
+2. We changed the `default_headers` method in the base.rb file and fixed the corresponding test in the notifier_spec.rb line 547. You can see the changes [here](https://github.com/codebearsteam/diaspora/pull/1/commits/9a02b47ba5d02cfccfa39d85d185932c9b03119a).
+
+3. At the moment we chose the following solution: when a sender has a name, the FROM header will show "Diaspora (name)", when a sender doesn't have a name the FROM header will show "Diaspora". However, we haven't decided whether it should be the final solution. Other options for the FROM header are for instance:
+
+  a. when name is present: Diaspora* (from "name"), Diaspora* Notifications (from "name"), Diaspora* (on behalf of "name").
+
+  b. when name is missing: no-reply@example.org, Diaspora* Notifications.  
+we need to consider the fact, that if we add text it should be translatable. If you have any opinion on the matter, by all means, let us know. We made this flowchart to make the process more clear (the questions in green are still not decided). You can see the flowchart [here](https://github.com/codebearsteam/daily-log/tree/master/assets).
+
+4. Regarding the case where there is no sender present, we got an answer saying that there is another email type with no sender, so we need to write a test for this case as well.
+
+On Monday we are planning to:             
+1. open a pull request against upstream/develop with our current solution and ask there about our "yes text"\"no text" deliberation.
+2. Write the extra test for the "no sender" case.
+3. Make sure the spec we wrote today is the right place of the spec file and if not, move it to a better place.  
+
+Second week was a blast!! thanks to all of our team members :)
+
+
 ### July 13th ###
 
 We had a-lot of progress in the past two days.
