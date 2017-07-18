@@ -20,3 +20,23 @@ After this introduction we are now learning and working on few subjects, in orde
 [Issue #6559](https://github.com/diaspora/diaspora/issues/6559): While learning, we started to look at our first issue. We located the code that need to be fixed for this issue in app\mailers\notification_mailers\base.rb, lines 35-42. We located the related test in spec\mailers\notifier_spec.rb. We realized there is a bit of a gap between the issue description and the code. We will ask our mentor about that or on the Diaspora IRC channel.
 
 One more thing we have learned from the contribution guide is this nice [blog post](https://opensource.com/life/15/2/4-tips-breaking-open-source-community) about contributing to an OS project.
+
+
+### Wednesday, 05/07/17 ###
+Coaching sessions with Dani (+individual reading) on:
+- the diaspora git workflow
+- testing and test driven development (TDD)
+
+Also:
+- a short look at our first issue (https://github.com/diaspora/diaspora/issues/6559)
+
+
+### Tuesday, 04/07/17 ###
+- more onboarding sessions
+- setting up more communication / technical infrastructure
+- emails to supervisor
+
+### Monday, 03/07/17 ###
+- onboarding sessions
+- setting up Slack Team
+- organizing our daily schedule
