@@ -3,7 +3,7 @@
 
 ### July 18th ###
 
-We started to work today on [this issue](https://github.com/diaspora/diaspora/issues/4888). It involves a list of issues regarding poll features. In the we read the issue and the entire discussion alongside testing polls creation on our own diaspora profiles, and came up with a list of 9(!) improvements. In our coaching session we divided the list to two categories:
+We started to work today on [this issue](https://github.com/diaspora/diaspora/issues/4888). It involves a list of issues regarding poll features. We read the issue and the entire discussion alongside testing polls creation on our own diaspora profiles, and came up with a list of 9(!) improvements. In our coaching session we divided the list to two categories:
 
 Visual issues:
 1. radio buttons alignment.
