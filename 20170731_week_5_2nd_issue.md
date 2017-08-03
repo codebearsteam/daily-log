@@ -1,4 +1,15 @@
 
+### August 3rd ###
+We started our day with a second retrospective - very good one :) You can find the conclusions [here](https://github.com/codebearsteam/daily-log/blob/master/assets/second_retro_summery.md) 
+We then did more of what we have been doing in the past week:
+* Tutorials: today it was again JavaScript
+* Search the code and play with it either in the console or in the localhost
+* In the coaching session: getting one step forward to understanding the files structure of the project in order to figure out where we need to add some code
+
+Tasks for tomorrow:
+* Learn, learn, learn: Presenters in ruby, Javascript and Handlebars
+* Practice git
+
 ### August 2nd ###  
 Today was mainly about getting confused :) So here is a small recap of our process so far:
 Our objective in this issue is to display the user's vote on a poll.  
