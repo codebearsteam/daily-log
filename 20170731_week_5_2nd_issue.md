@@ -6,7 +6,7 @@ We spent time learning about databases and creating test data in the local datab
 We then thought we would need to create a `show` action in the `poll_participation_controller` and then take care of the view, so we spent time learning about controller's actions and JavaScript basics, so we could follow the basic architecture of the model-view-controller.  
 But! the `poll_participation_controller` probably is not related to solving this issue after all, because the view files are calling to poll-related methods from the model files. This is where our confusion started. Moreover, diaspora views don't use the standard HTML with erb, but HAML, Backbone.js and Handlebars.js, which we don't know at all.
 We spent the coaching sessions today to research the diaspora code and trying to figure out where we need to add code. Our main suspects are:  
-on the back-end side - `poll.rb`, `poll_presenter.rb`  
+on the back-end side - `poll.rb`, `post_presenter.rb`  
 on the front-end side - `poll_view.js`, `poll_tpl.jst.hbs`  
 Our tasks for tomorrow would be to keep researching the code and re-focus our learning efforts.
 
