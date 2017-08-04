@@ -1,6 +1,21 @@
+### August 4rd ###
+Today we looked mainly at the topic of Presenters, which was the main topic that was missing for us to get a step further in our issue. And it did!! First we looked at some tutorials but we realized quickly that we need a coaching session on this. So we had a really helpful session and at the end of the day we were able to show the option a user voted for in a poll in the browser.
+This is what we did:
+* Added a method in the `models/poll.rb` file which includes the call to the database
+* Added a method in the `app/presenters/post_presenter.rb` file, passing the current user to the method in the model.
+* Added this method in the `non_directly_retrieved_attributes` method of the `app/presenters/post_presenter.rb` file which is then passed to the `as_json` method.
+* Called the relevant attribute of the json from the `post_presenter` in the `app/assets/templates/poll_tpl.jst.hbs` including an if-statement which refers to a variable in the `app/assets/javascripts/app/views/poll_view.js` to show the result only if the user has already participated (need to check if we really need this)
+* Added some lines to the `config/locales/javascript/javascript.en.yml` translation file to be able to show the output in the `poll_tpl.jst.hbs`.
+
+Of course, we can probably refactor quite a bit and probably also make a simpler query to the database. But nice to see some progress.
+
+What a successful end of a very confusing week :)
+
+
+
 
 ### August 3rd ###
-We started our day with a second retrospective - very good one :) You can find the conclusions [here](https://github.com/codebearsteam/daily-log/blob/master/assets/second_retro_summery.md) 
+We started our day with a second retrospective - very good one :) You can find the conclusions [here](https://github.com/codebearsteam/daily-log/blob/master/assets/second_retro_summery.md)
 We then did more of what we have been doing in the past week:
 * Tutorials: today it was again JavaScript
 * Search the code and play with it either in the console or in the localhost
