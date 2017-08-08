@@ -1,3 +1,7 @@
+### August 8th ###
+Today we mainly continued working on our database query, created a JOIN and made it work. Then we realized it needs more refactoring, so we did that as well.
+We also checked with the diaspora community about the way our users vote should be displayed in the browser. From the feedback we got, it looks like we need to dive deeper into Handlebars and Backbone and also we might not need the JOIN after all. We also started looking at the Handlebars templates which we will continue tomorrow.
+
 ### August 7th ###
 
 Today we started the day with recapturing what we did on Friday. We decided that we need to understand more of Backbone.js so we started watching tutorials on this JavaScript library.
