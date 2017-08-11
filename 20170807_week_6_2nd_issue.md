@@ -3,9 +3,7 @@ Today we had a huge progress with the issue!
 First of all, we were able to implement a better way to show the user's vote in the client side. We got a lot of help from one of SoundCloud developers. After he suggested and explained his solution, we implemented it, fixed some bugs and refactored the code.   
 Then we turned to the question HOW to present the user's vote. For that we continued the discussion on the issue on git-hub, which is still going on. You can see it [here](https://github.com/diaspora/diaspora/issues/4888), to get an idea what we need to change.  
 We also started to touch testing for this issue.   
-Our coaching session today was dedicated to git, once again, continuing our git mastering training. This is the level of craziness we got to (hope it's clear enough): ![alt git](/home/neta/Documents/Coding/SoC/daily-log/assets/photo_2017-08-11_17-51-48.jpg)
-
-.
+Our coaching session today was dedicated to git, once again, continuing our git mastering training. You can check the level of craziness we got to (hope it's clear enough) [here.](https://github.com/codebearsteam/daily-log/blob/master/assets/photo_2017-08-11_17-51-48.jpg)  
 A very productive day!  
 
 
