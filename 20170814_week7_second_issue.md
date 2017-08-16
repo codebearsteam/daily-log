@@ -1,3 +1,8 @@
+### August 16th ###
+
+Today we made some big progress on our issue and we will open a PR tomorrow. We had some correspondence with the diaspora community on the Jasmine tests, which was very helpful. Then we were able to write the front-end tests on the users vote. Then we ran the pronto checks which we will take care of tomorrow.
+
+
 ### August 15th ###
 
 Today we did come recap on CSS and got an introduction to SCSS from one of our coaches. This was very helpful to understand the CSS in our code. We then went over to editing the css in our code so the progress bar would change color instead of the text. The only thing left on this end, is to remove one line of code regarding different color themes that the user can choose in their profile.
