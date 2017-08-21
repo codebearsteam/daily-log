@@ -1,3 +1,12 @@
+### August 17th ###
+
+We started the day with another nice retrospect.
+The rest of the day we spent mainly on getting our code ready for the pull request.
+We cleaned the code after cleaning the code according to the checks results , we fetched changes from the project's remote, committed our changes and rebased our branch, alongside we fixed some conflicts and squashed irrelevant commits- following our git work-flow before a PR.
+But! after we fetched the changes from the project's remote we started having problems.
+We had to install gems that were missing, and lots of tests failed now... we fixed the tests we knew how to fix, but most of the failures were related to migrations. With the help of our coach we realized it's probably it is related to problems on our local machines and we ran g rake db:migrate. It didn't work so we couldn't figure it out completely just yet. That will have to wait for next week.
+On the other hand, we decided that we can still open the PR and work on all the fixes together, so we did :).
+
 ### August 16th ###
 
 Today we made some big progress on our issue and we will open a PR tomorrow. We had some correspondence with the diaspora community on the Jasmine tests, which was very helpful. Then we were able to write the front-end tests on the users vote. Then we ran the pronto checks which we will take care of tomorrow.
