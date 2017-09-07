@@ -1,3 +1,14 @@
+
+### September 1st ###
+Yesterday I worked mainly on understanding how the exisiting notifications work. I played with the Rails console to create different kinds of notifications. For this step the files that are most relevant are:
+
+`app/services/notification_service.rb` --> there the type.notify method is used, which is why it is important to have a self.notify method in the class of each notification type in this directory: app/models/notifications
+
+`app/models/notification.rb` --> here the recipient, actor and target are passed which is relevant to us when creating the new notification type
+
+With one of the coaches I discussed the need of separating different parts of the software in software design. Still need to read more about this, as I´m not sure if I understood everything he said :)
+
+
 ### August 28th & 29th - next issue ###
 This is gonna be our next issue: https://github.com/diaspora/diaspora/issues/1649
 It´s about sending notifications to the contacts of a user (actually a Profile in Diaspora language).
