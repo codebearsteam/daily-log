@@ -1,16 +1,28 @@
+---
+title: A story of an issue  
+layout: post
+created_at: Mon Sept 18 2017
+permalink: blog/2017-09-18-story-of-an-issue
+current: blog
+author: Neta and Rete
+twitter: ruby_bears
+categories:
+- student-posts
+---
+
 # A story of an issue
 
-**No matter if the issue is big or small, complicated or simple, a bug or a feature- in our Summer of Code the issues have a similar cycle. Team "Code Bears" has some important lessons to share after two and a half months of working on [diaspora](https://diasporafoundation.org/).**
+**No matter if the issue is big or small, complicated or simple, a bug or a feature - in our Summer of Code the issues have a similar cycle. Team "Code Bears" has some important lessons to share after two and a half months of working on [diaspora\*](https://diasporafoundation.org/).**
 
 #### Pick out the issue
 
-What do we want to achieve? what would we like to learn? Do we want to use skills we already learned or learn something new? would we actually see the results of our work? We try to ask ourselves all those questions when we approach the long [issues list](https://github.com/diaspora/diaspora/issues) of diaspora. Naturally at first we got a lot of direction from our coaches and mentor on this step, but as the summer progressed we got stronger opinions on those questions.
+What do we want to achieve? What would we like to learn? Do we want to use skills we already learned or learn something new? Would we actually see the results of our work? We try to ask ourselves all those questions when we approach the long [list of issues](https://github.com/diaspora/diaspora/issues) of diaspora\*. Naturally at first we got a lot of direction from our coaches and mentor on this step, but as the summer progressed we had stronger opinions on those questions ourselves.
 
 For instance, the more back-end the better. We just love our RoR programming! Of course we also love it when we learn and understand front-end code, but it's very clear that we both are more attracted to the back-end side.
 
-#### Ask the diaspora community
+#### Ask the diaspora\* community
 
-Diaspora has a very active community and we had to find out for each issue we chose if it was still available. We got great feedback from the community just by asking about it on the issue page. In [some cases](https://github.com/diaspora/diaspora/issues/7471) it even triggered a long discussion about ways to solve the issue or even the very necessity of a solution. The community is very responsive whenever we have questions or require consultation on our solution. You just gotta love the diaspora community for their involvement and investment.
+Diaspora\* has a very active community and we had to find out for each issue we chose if it was still available. We got great feedback from the community just by asking about it on the issue page. In [some cases](https://github.com/diaspora/diaspora/issues/7471) it even triggered a long discussion about ways to solve the issue or even the very necessity of a solution. The community is very responsive whenever we have questions or require consultation on our solution. You just gotta love the diaspora\* community for their involvement and investment.
 
 #### Search. Everywhere.
 
@@ -47,9 +59,9 @@ Therefore, during the first half of SoC, we had a very helpful weekly git sessio
 
 #### Code review
 
-Obviously every PR resulted with some corrections and suggestions to improve our code. The beauty of the code review is that it always comes with explanations! We learn a lot just from everyone's comments. Again, you just gotta love the diaspora community that understands our state (beginners), reviews our code accordingly and helps us with the fixes.
+Obviously every PR resulted with some corrections and suggestions to improve our code. The beauty of the code review is that it always comes with explanations! We learn a lot just from everyone's comments. Again, you just gotta love the diaspora\* community that understands our state (beginners), reviews our code accordingly and helps us with the fixes.
 
-#### Eat ice scream
+#### Eat ice cream
 
 while celebrating merged PR.  
 
@@ -71,7 +83,7 @@ Here are some lessons, big and small, we've learned from this roller coaster cal
 
 **Learn from your code reviews:** See "Code review" above :).
 
-**We are in love with diaspora:** The complexity of the code and the involvement of the community have made this summer very challenging and rewarding. Check the [project on github](https://github.com/diaspora/diaspora), maybe you would want to contribute as well.
+**We are in love with diaspora\*:** The complexity of the code and the involvement of the community have made this summer very challenging and rewarding. Check the [project on github](https://github.com/diaspora/diaspora), maybe you would want to contribute as well.
 
 **Remember to celebrate:** Did you open a PR, did your code get merged, did you just finish refactoring a beautiful piece of code? Great! Celebrate and go eat some ice cream.
 
@@ -79,10 +91,10 @@ Here are some lessons, big and small, we've learned from this roller coaster cal
 
 This amazing summer would not be amazing without our team and the help of other supportive people:
 
-* Our team's coaches: **Jano, Laura, Glauber, Dani, David and Chiara**, thank you so much for all you help, time, energy, patience, white-board sessions, source-code sessions, exercises and so much more.
-* Other coaches: **Remi, Andray, Alon and Liron** for helping on specific topics and substituting for coaches on vacation.  
-* Our mentor: **Lisa**, thanks for your availability for questions and tips about diaspora.
-* Our supervisor: **Funny**, thank you for caring for our well-being throughout the summer.
-* Diaspora community: Thank you for being so responsive and helpful, and for keeping such a pleasant communication with your contributers. Special thanks for members who reviewed patiently and commented on our code- **@Flaburgan, @SuperTux88 and @svbergerem**.
+* Our team's coaches: **Chiara, Dani, David, Glauber, Jano** and **Laura**, thank you so much for all you help, time, energy, patience, white-board sessions, source-code sessions, exercises and so much more.
+* Other coaches: **Alon, Andrey, Liron** and **Remi** for helping on specific topics and substituting for coaches on vacation.  
+* Our supervisor: **Fanny**, thank you for caring for our well-being throughout the summer and always being there for questions.
+* Our mentor: **Lisa**, thanks for your availability for questions and tips about diaspora\*.
+* Diaspora community: Thank you for being so responsive and helpful, and for keeping such a pleasant communication with your contributers. Special thanks for members who reviewed patiently and commented on our code- **@Flaburgan, @SuperTux88** and **@svbergerem**.
 * Our coaching company: thank you **SoundCloud** for hosting us and suppling us with a brilliant learning atmosphere and amazing coffee.    
 <div style="text-align:center"><img src ="http://content.mycutegraphics.com/graphics/thankyou/owl-chalkboard-thank-you.png" /></div>
