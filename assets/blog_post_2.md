@@ -4,9 +4,7 @@
 
 #### Pick out the issue
 
-What do we want to achieve? what would we like to learn? Do we want to use skills we already learned or learn something new? would we actually see the results of our work?
-
-We try to ask ourselves all those questions when we approach the long [issues list](https://github.com/diaspora/diaspora/issues) of diaspora. Naturally at first we got a lot of direction from our coaches and mentor on this step, but as the summer progressed we got stronger opinions on those questions.
+What do we want to achieve? what would we like to learn? Do we want to use skills we already learned or learn something new? would we actually see the results of our work? We try to ask ourselves all those questions when we approach the long [issues list](https://github.com/diaspora/diaspora/issues) of diaspora. Naturally at first we got a lot of direction from our coaches and mentor on this step, but as the summer progressed we got stronger opinions on those questions.
 
 For instance, the more back-end the better. We just love our RoR programming! Of course we also love it when we learn and understand front-end code, but it's very clear that we both are more attracted to the back-end side.
 
@@ -19,8 +17,7 @@ Diaspora has a very active community and we had to find out for each issue we ch
 Like two Alices in diasporaland, with every issue we embark on an ongoing quest through the intricate and entangled maze called the diaspora source code. It is not your typical MVC app (if that even really exists). Finding the related files to the issue and trying to understand the relationship between them is no less than a superpower one needs to develop.
 
 Apart from the familiar models, controllers and views, we have encountered, and thereby learned about, lots of other types of files: mailers, presenters, helpers, services, workers, templates, javascript files, specs, factories and more.  
-
-![](https://media.giphy.com/media/ACLCA6bvwBEvC/giphy.gif)  
+<div style="text-align:center"><img src ="https://media.giphy.com/media/ACLCA6bvwBEvC/giphy.gif" style="width: 350px;" /></div>
 
 #### Tutorials, Tutorials, Tutorials
 
@@ -31,8 +28,7 @@ In order to understand all the new terms we learn, we spend quite a lot of time 
 Connecting theory and practice always, but always, resulted in a big confusion. Things on diaspora almost never work according to theory. We think we figured out where we need to add code, it fails, the error raises some filename we don't know, which leads us to go back to our diasporaland quest, where we don't understand the code, or we find a bunch of new terms, or we can't figure out why this file even exists, and so on.
 
 The most common sentence called out loud during this summer, by students and coaches alike, while looking at the code is: "This is weird".      
-
-![](https://media.giphy.com/media/h2JpSEKZRbYtO/giphy.gif)
+<div style="text-align:center"><img src ="https://media.giphy.com/media/h2JpSEKZRbYtO/giphy.gif" /></div>
 
 #### Play with the code
 
@@ -47,8 +43,7 @@ This is usually when we make our progress with the issue: typing on our keyboard
 When we think our code is ready, it's time to open the PR and break out in our git dance. We have a kind of a complicated git setup, with two remote repositories and two local ones, as well as git-flow which requires re-basing and squashing commits. It took us a while to understand what we are doing and dare to push code by ourselves. Common mishaps include, but not limited to, `git reset --hard`, mysterious branch diversions, merge conflicts and the occasional "mind f***" moment. It was hard to keep our `HEAD` in the right place.
 
 Therefore, during the first half of SoC, we had a very helpful weekly git session with one of the coaches. Although we still sometime struggle with git, we now have our own git dance and can handle it quite independently.
-
-![](https://avatars3.githubusercontent.com/u/23492828?v=3&s=200)
+<div style="text-align:center"><img src ="https://avatars3.githubusercontent.com/u/23492828?v=3&s=200" style="width: 250px;" /></div>
 
 #### Code review
 
@@ -90,5 +85,4 @@ This amazing summer would not be amazing without our team and the help of other 
 * Our supervisor: **Funny**, thank you for caring for our well-being throughout the summer.
 * Diaspora community: Thank you for being so responsive and helpful, and for keeping such a pleasant communication with your contributers. Special thanks for members who reviewed patiently and commented on our code- **@Flaburgan, @SuperTux88 and @svbergerem**.
 * Our coaching company: thank you **SoundCloud** for hosting us and suppling us with a brilliant learning atmosphere and amazing coffee.    
-
-![](http://content.mycutegraphics.com/graphics/thankyou/owl-chalkboard-thank-you.png)
+<div style="text-align:center"><img src ="http://content.mycutegraphics.com/graphics/thankyou/owl-chalkboard-thank-you.png" /></div>
